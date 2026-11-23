@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Application/Application.csproj" Id="1c1943c4-5fe9-40b8-b3ab-52f756794e05" />
+  <Project Path="Domain/Domain.csproj" Id="65f287cf-6af5-4e5b-b06e-10c9f741d5da" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="Velion/Velion.csproj" />
+</Solution>

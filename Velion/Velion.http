@@ -1,0 +1,6 @@
+@Velion_HostAddress = http://localhost:5122
+
+GET {{Velion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
