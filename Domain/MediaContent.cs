@@ -4,12 +4,7 @@ using System.Text;
 
 namespace Domain
 {
-    public enum MovieOrSeries
-    {
-        Movie = 1,
-        Series = 2
-    }
-    public class MediaContent
+    public abstract class MediaContent
     {
         public int Id {  get; set; }
         public string Name { get; set; } = string.Empty;
@@ -19,8 +14,6 @@ namespace Domain
         public string? Trailer { get; set; }
         public Genre Genre { get; set; } = null!;
         public int GenreId { get; set; }
-        public MovieOrSeries ContentType { get; set; }
-        public string? FullVideoUrl { get; set; }
-        public bool IsAvailable {  get; set; }
+        public bool IsAvailable { get; set; } = true;
     }
 }
