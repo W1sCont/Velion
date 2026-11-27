@@ -8,10 +8,10 @@ namespace Domain
     {
         public int Id { get; set; }
         public int SeasonNumber { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
+        public string? Name { get; set; }
+        public string? Description { get; set; }
         public ICollection<Episode> Episodes { get; set; } = [];
-        public MediaContent MediaContent { get; set; } = null!;
-        public int MediaContentId { get; set; }
+        public Series Series { get; set; } = null!;
+        public int SeriesId { get; set; }
     }
 }
