@@ -9,7 +9,7 @@ namespace Domain
         public int Id { get; set; }
         public int EpisodeNumber { get; set; }
         public string? Name { get; set; }
-        public string? EpisodeVideoUrl { get; set; }
+        public string EpisodeVideoUrl { get; set; } = string.Empty;
         public Season Season { get; set; } = null!;
         public int SeasonId { get; set; }
     }
