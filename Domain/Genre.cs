@@ -8,6 +8,6 @@ namespace Domain
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        ICollection<MediaContent> MediaContents { get; set; } = [];
+        public ICollection<MediaContent> MediaContents { get; set; } = [];
     }
 }
